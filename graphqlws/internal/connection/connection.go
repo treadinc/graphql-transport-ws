@@ -116,7 +116,7 @@ func Connect(ctx context.Context, ws wsConnection, service GraphQLService, optio
 	}
 
 	defaultOpts := []func(conn *connection){
-		ReadLimit(4096),
+		ReadLimit(65536),
 		WriteTimeout(time.Second),
 	}
 
