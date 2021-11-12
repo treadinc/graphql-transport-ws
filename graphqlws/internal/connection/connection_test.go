@@ -8,7 +8,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/graph-gophers/graphql-transport-ws/graphqlws/internal/connection"
+	"github.com/treadinc/graphql-transport-ws/graphqlws/internal/connection"
 )
 
 type messageIntention int
